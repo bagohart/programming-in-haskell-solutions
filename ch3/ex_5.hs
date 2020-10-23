@@ -1,0 +1,3 @@
+-- We would assume that f == g iff f :: a -> b and g :: a -> b and f a == g a for all a.
+-- This requires that the type 'a' has finitely many values (and hopefully not too many)
+-- and that b is an instance of Eq.
